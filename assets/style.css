@@ -19,6 +19,7 @@ body {
     align-content: center;
     padding: 3%;
     justify-content: center;
+    border-bottom: 1px solid black;
     
 }
 nav{
@@ -26,13 +27,14 @@ nav{
     align-items:flex-end;
     justify-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;
+    
 }
 
 .header h1 {
-    padding: 25px;
+    padding: 1em;
     text-align: center;
     align-self:center;
+    font-size: 3em;
 }
 .header img{
     max-width: 30%;
@@ -48,11 +50,16 @@ nav{
     text-align:center
 }
 
-.header   li {
+.header   li a{
     display: inline-block;
+    font-size: 2em;
     padding: 25px;
+    text-decoration:none;
 
     
+}
+a:hover{
+    color: darkred;
 }
 .content-box {
     display: flex;
@@ -68,15 +75,14 @@ nav{
     padding: 3em;
 }
 .content-box h2{
-    font-size: 2em;
+    font-size: 5em;
     padding: 2rem;
     display: block;
 
 }
 .work-section {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     min-width: 75%;
     align-items:flex-start;
     background-color: aquamarine;
@@ -87,9 +93,14 @@ nav{
     overflow: auto;
     flex: 1 0 auto;
     transition: flex-basis 500ms linear;
+    align-items: center;
+    justify-content: center;
+}
+.work-section h3{
+    font-size:5em ;
 }
 .justify-space{
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .justify-center{
     justify-content: center;
@@ -99,7 +110,6 @@ nav{
     flex-direction: column;
     background-color: azure;
     position: relative;
-    top: 4em;
     border: 1px solid black;
     border-radius: 2rem;
     height: 50vh;
@@ -108,24 +118,32 @@ nav{
     overflow: auto;
     align-items: center;
     justify-content: center;
-    
+    padding: 2%;
 }
 .first-project p{
     display: block;
 }
 .first-project img {
-    max-width: 50%;
+    max-width: 100%;
+    width: 30vh;
     height: auto;
     flex: 1 0 auto;
 
 }
 .work-section h3{
-    position: absolute;
-    align-self: flex-start;
+    position: relative;
 
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .project-boxes {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     position:relative;
     background-color: chocolate;
@@ -151,19 +169,30 @@ nav{
     background-color: aqua;
     box-sizing: border-box;
     min-width: 100%;
-    top:15vh;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 3rem;
-    
+    height: 6rem;
     
 }
+
+.footer h4 {
+    font-size: 2em;
+    margin: 1em;
+}
+
+.footer li{
+    display: inline;
+    font-size: 1.5em;
+    margin: 0 8rem 0 8rem;
+    float: right;
+}
+.footer li a {
+    text-decoration: none;
+}
+
 @media screen and (min-width: 576px){
     .project-boxes .work-section .first-project{
-      flex-wrap: wrap;
-      flex-direction: column;
-      align-items:flex-end;
       overflow: auto;
       max-width: 100%;
     }
