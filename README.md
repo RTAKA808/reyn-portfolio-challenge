@@ -27,4 +27,4 @@ github: https://github.com/RTAKA808/reyn-portfolio-challenge
 Deployed page: https://rtaka808.github.io/reyn-portfolio-challenge/
 ## Screenshots
 
-![alt text](reyn-portfolio-challenge-screenshot.JPG)
+![!\[alt text\](reyn-portfolio-challenge-screenshot.JPG)](assets/images/reyn-portfolio-challenge-screenshot.JPG)
