@@ -60,6 +60,7 @@ nav{
 }
 a:hover{
     color: green;
+    cursor: grab;
 
 }
 .content-box {
@@ -78,6 +79,7 @@ a:hover{
 .content-box p {
     line-height: 2rem;
     padding: 3em;
+    font-size: 1.3rem;
 }
 .content-box h2{
     font-size: 5em;
@@ -132,9 +134,12 @@ a:hover{
 }
 .first-project img:hover {
     box-shadow: 1em 1em 3em purple;
+    cursor: grab;
 }
 .first-project p{
     display: block;
+    font-size: 1.5rem;
+    line-height: 1.5em;
 }
 .first-project img {
     max-width: 100%;
@@ -176,6 +181,11 @@ a:hover{
 }
 .project-boxes:hover{
     box-shadow: 1em 1em 1em gray;
+}
+
+.project-boxes p {
+    line-height: 2;
+    font-size: 1.4em;
 }
 
 
