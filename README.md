@@ -24,5 +24,7 @@ There are clickable links and images that lead to the other sections, github rep
 ## links
 github: https://github.com/RTAKA808/reyn-portfolio-challenge
 
-Deployed page: 
+Deployed page: https://rtaka808.github.io/reyn-portfolio-challenge/
 ## Screenshots
+
+![alt text](reyn-portfolio-challenge-screenshot.JPG)
